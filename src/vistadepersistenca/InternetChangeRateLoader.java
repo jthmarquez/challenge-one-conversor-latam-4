@@ -15,7 +15,7 @@ import model.Number;
 
 public class InternetChangeRateLoader implements ChangeRateLoader{
 
-	private static final String URL = "https://v6.exchangerate-api.com/v6/f6495a38298023f4e0d50b89/latest/%s";
+	private static final String URL = "http://currencies.apps.grandtrunk.net/";
 
     public InternetChangeRateLoader() {
     }
